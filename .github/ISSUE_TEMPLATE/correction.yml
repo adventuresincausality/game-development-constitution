@@ -1,0 +1,31 @@
+name: Source or accuracy correction
+description: Report an unsupported claim, weak citation, incorrect attribution, or factual error.
+title: "[Correction]: "
+labels: [accuracy, sources]
+body:
+  - type: input
+    id: principle
+    attributes:
+      label: Principle or source key
+      description: Give the permanent principle ID or source key, if applicable.
+      placeholder: GDC-L1-DESIGN-0001 or S-hunicke-mda
+  - type: textarea
+    id: problem
+    attributes:
+      label: What appears to be wrong?
+      description: Identify the exact claim, citation, attribution, or link.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Better evidence
+      description: Link the exact primary source or explain how the current source should be read.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Suggested change
+      description: A concise correction is welcome but not required.
+

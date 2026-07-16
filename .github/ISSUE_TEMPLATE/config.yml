@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the contribution guide
+    url: https://github.com/adventuresincausality/game-development-constitution/blob/main/CONTRIBUTING.md
+    about: Review the quality and sourcing standard before proposing a change.
+

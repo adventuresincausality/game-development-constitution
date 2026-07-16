@@ -1,0 +1,482 @@
+[
+  {
+    "key": "S-adams-dormans-mechanics",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Ernest Adams and Joris Dormans. Game Mechanics: Advanced Game Design. New Riders, 2012.",
+    "notes": "A formal treatment of game economies, sources, drains, converters, feedback loops, and the Machinations modeling framework.",
+    "group": "Systems & Mechanics",
+    "url": "https://www.peachpit.com/store/game-mechanics-advanced-game-design-9780132946704",
+    "verification": "verified"
+  },
+  {
+    "key": "S-bushnell-law",
+    "type": "Interview / aphorism",
+    "tier": "IND",
+    "citation": "Nolan Bushnell. “Creating Video Games That Are Easy to Learn But Difficult to Master.” WIRED Live, 2014.",
+    "notes": "Primary interview evidence for Bushnell’s easy-to-learn, difficult-to-master design maxim. Longer versions of the saying are often attributed to him without a traceable primary source.",
+    "group": "Design first-principles",
+    "url": "https://www.wired.com/video/watch/wired-live-creating-video-games-that-are-easy-to-learn-but-difficult-to-master",
+    "verification": "verified"
+  },
+  {
+    "key": "S-collins-game-sound",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Karen Collins. Game Sound: An Introduction to the History, Theory, and Practice of Video Game Music and Sound Design. MIT Press, 2008.",
+    "notes": "A scholarly history and analysis of nonlinear, interactive, and adaptive sound in games.",
+    "group": "Audio Design",
+    "url": "https://mitpress.mit.edu/9780262537773/game-sound/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-cook-loops-arcs",
+    "type": "Practitioner essays",
+    "tier": "IND",
+    "citation": "Daniel Cook. “The Chemistry of Game Design” (2007) and “Loops and Arcs” (2012). Lostgarden.",
+    "notes": "Introduces skill atoms and examines the repeated feedback loops through which players act, observe, and learn.",
+    "group": "Systems & Mechanics",
+    "url": "https://lostgarden.com/2007/07/19/the-chemistry-of-game-design/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-cooper-game-anim",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Jonathan Cooper. Game Anim: Video Game Animation Explained. 2nd ed., CRC Press, 2021.",
+    "notes": "Production-oriented guidance on animation principles, responsiveness, locomotion, and the interaction between animation and gameplay control.",
+    "group": "Animation",
+    "url": "https://www.routledge.com/Game-Anim-Video-Game-Animation-Explained/Cooper/p/book/9780367707705",
+    "verification": "verified"
+  },
+  {
+    "key": "S-csikszentmihalyi-flow",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Mihaly Csikszentmihalyi. Flow: The Psychology of Optimal Experience. Harper & Row, 1990.",
+    "notes": "Foundational account of absorption, clear goals, feedback, and the relationship between challenge and skill.",
+    "group": "Design first-principles",
+    "url": "https://books.google.com/books/about/Flow.html?id=B4ryzwEACAAJ",
+    "verification": "verified"
+  },
+  {
+    "key": "S-design-pillars",
+    "type": "Practitioner article",
+    "tier": "IND",
+    "citation": "Max Pears. “Design Pillars — The Core of Your Game.” Game Developer, October 12, 2017.",
+    "notes": "Explains how a small set of design pillars can preserve direction and help teams evaluate ideas consistently.",
+    "group": "Process, People & Business",
+    "url": "https://www.gamedeveloper.com/design/design-pillars-the-core-of-your-game",
+    "verification": "verified"
+  },
+  {
+    "key": "S-economy-design",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Ernest Adams and Joris Dormans. Game Mechanics: Advanced Game Design. New Riders, 2012.",
+    "notes": "Supports the source-and-drain model of internal economies and the analysis of resource flows and feedback.",
+    "group": "Economy & Resources",
+    "url": "https://www.peachpit.com/store/game-mechanics-advanced-game-design-9780132946704",
+    "verification": "verified"
+  },
+  {
+    "key": "S-edmondson-psych-safety",
+    "type": "Research and field study",
+    "tier": "ACA",
+    "citation": "Amy Edmondson. “Psychological Safety and Learning Behavior in Work Teams.” Administrative Science Quarterly 44, no. 2 (1999); Google re:Work, “Understand Team Effectiveness.”",
+    "notes": "Defines psychological safety and documents its relationship to learning behavior. Google’s internal Project Aristotle identified it as the first of five key team dynamics; that finding is not a universal ranking across all organizations.",
+    "group": "Process, People & Business",
+    "url": "https://doi.org/10.2307/2666999",
+    "verification": "verified"
+  },
+  {
+    "key": "S-game-accessibility",
+    "type": "Guidelines",
+    "tier": "GUIDE",
+    "citation": "Game Accessibility Guidelines; AbleGamers Charity, Includification: A Practical Guide to Game Accessibility.",
+    "notes": "Practical guidance covering controls, text, color, captions, difficulty, assist options, and other accessibility considerations. Individual needs and implementation costs vary by project.",
+    "group": "Usability, UI & Accessibility",
+    "url": "https://gameaccessibilityguidelines.com/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-game-audio-practice",
+    "type": "Practitioner articles",
+    "tier": "IND",
+    "citation": "Guy Whitmore. “Design With Music in Mind: A Guide to Adaptive Audio for Game Designers.” Game Developer, 2003; Alex Riviere. “Game Audio Mixing Demystified.” A Sound Effect, 2023.",
+    "notes": "Concrete practitioner guidance on adaptive music structures and on mixing interactive audio for clarity.",
+    "group": "Audio Design",
+    "url": "https://www.gamedeveloper.com/audio/design-with-music-in-mind-a-guide-to-adaptive-audio-for-game-designers",
+    "verification": "verified"
+  },
+  {
+    "key": "S-games-user-research",
+    "type": "Academic references",
+    "tier": "ACA",
+    "citation": "Anders Drachen. “Behavioral Telemetry in Games User Research.” In Game User Experience Evaluation, Springer, 2015; Anders Drachen, Pejman Mirza-Babaei, and Lennart Nacke, eds. Games User Research. Oxford University Press, 2018.",
+    "notes": "Methods for combining observation, qualitative research, and behavioral telemetry to understand player experience.",
+    "group": "Progression & Playtesting",
+    "url": "https://doi.org/10.1007/978-3-319-15985-0_7",
+    "verification": "verified"
+  },
+  {
+    "key": "S-gregory-game-engine-arch",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Jason Gregory. Game Engine Architecture. 3rd ed., CRC Press, 2018.",
+    "notes": "A broad technical reference on runtime architecture, subsystems, tools, resources, and game-engine layering.",
+    "group": "Programming & Architecture",
+    "url": "https://www.taylorfrancis.com/books/mono/10.1201/9781315267845/game-engine-architecture-third-edition-jason-gregory",
+    "verification": "verified"
+  },
+  {
+    "key": "S-hocking-ludonarrative",
+    "type": "Practitioner essay",
+    "tier": "IND",
+    "citation": "Clint Hocking. “Ludonarrative Dissonance in BioShock.” Click Nothing, October 7, 2007.",
+    "notes": "Introduces ludonarrative dissonance as a conflict between a game’s ludic and narrative structures. The essay does not claim that dissonance is always a deliberate device.",
+    "group": "Narrative & Storytelling",
+    "url": "https://clicknothing.com/2007/10/07/ludonarrative-d/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-hodent-gamers-brain",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Celia Hodent. The Gamer’s Brain: How Neuroscience and UX Can Impact Video Game Design. CRC Press, 2017.",
+    "notes": "Applies perception, attention, memory, learning, and motivation research to game usability and engageability.",
+    "group": "Usability, UI & Accessibility",
+    "url": "https://books.google.com/books/about/The_Gamer_s_Brain.html?id=pF8wDwAAQBAJ",
+    "verification": "verified"
+  },
+  {
+    "key": "S-hunicke-mda",
+    "type": "Workshop paper",
+    "tier": "ACA",
+    "citation": "Robin Hunicke, Marc LeBlanc, and Robert Zubek. “MDA: A Formal Approach to Game Design and Game Research.” AAAI Workshop on Challenges in Game AI, 2004.",
+    "notes": "Presents the Mechanics–Dynamics–Aesthetics framework and the different perspectives of designers and players.",
+    "group": "Design first-principles",
+    "url": "https://aaai.org/papers/ws04-04-001-mda-a-formal-approach-to-game-design-and-game-research/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-impact-feedback-study",
+    "type": "Conference paper",
+    "tier": "ACA",
+    "citation": "Zhonghao Lin, Haihan Duan, Zikai Alex Wen, and Wei Cai. “What Features Influence Impact Feel? A Study of Impact Feedback in Action Games.” 2022 IEEE Games, Entertainment, Media Conference, 2022.",
+    "notes": "An empirical study of how selected visual, audio, and temporal feedback features may influence perceived impact in action games.",
+    "group": "Game Feel",
+    "url": "https://doi.org/10.1109/GEM56474.2022.10017782",
+    "verification": "verified"
+  },
+  {
+    "key": "S-interactive-narrative",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Janet H. Murray. Hamlet on the Holodeck: The Future of Narrative in Cyberspace. Updated ed., MIT Press, 2017.",
+    "notes": "A foundational account of agency, participation, and narrative possibilities in interactive digital environments.",
+    "group": "Narrative & Storytelling",
+    "url": "https://mitpress.mit.edu/9780262533485/hamlet-on-the-holodeck/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-jonasson-purho-juice",
+    "type": "Conference talk",
+    "tier": "GDC",
+    "citation": "Martin Jonasson and Petri Purho. “Juice It or Lose It.” GDC Europe, 2012.",
+    "notes": "A practical demonstration of layering animation, particles, sound, shake, and other responses onto a simple game.",
+    "group": "Game Feel",
+    "url": "https://gdcvault.com/play/1016487/Juice-It-or-Lose",
+    "verification": "verified"
+  },
+  {
+    "key": "S-kill-your-darlings",
+    "type": "Educational video",
+    "tier": "IND",
+    "citation": "Extra Credits. “Fail Faster 2: Fail Better — Iteration & Feedback.” 2021.",
+    "notes": "Discusses iteration, feedback, and letting go of work that does not survive testing. This replaces an earlier, imprecise title attribution.",
+    "group": "Prototyping & Iteration",
+    "url": "https://youtu.be/lOO6hyOKoUM",
+    "verification": "verified"
+  },
+  {
+    "key": "S-knuth-premature",
+    "type": "Journal article",
+    "tier": "ACA",
+    "citation": "Donald E. Knuth. “Structured Programming with go to Statements.” ACM Computing Surveys 6, no. 4 (1974): 261–301.",
+    "notes": "The source of Knuth’s frequently quoted warning about premature optimization, including its surrounding qualification about critical code.",
+    "group": "Performance & Optimization",
+    "url": "https://doi.org/10.1145/356635.356640",
+    "verification": "verified"
+  },
+  {
+    "key": "S-koster-theoryoffun",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Raph Koster. A Theory of Fun for Game Design. 2nd ed., O’Reilly Media, 2013.",
+    "notes": "Argues that much game enjoyment arises through recognizing, learning, and mastering patterns.",
+    "group": "Design first-principles",
+    "url": "https://www.oreilly.com/library/view/theory-of-fun/9781449363208/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-leveldesign-guidance",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Christopher W. Totten. An Architectural Approach to Level Design. 2nd ed., CRC Press, 2019.",
+    "notes": "Uses architectural principles to discuss spatial communication, navigation, pacing, landmarks, and player experience in level design.",
+    "group": "Level & World Design",
+    "url": "https://www.routledge.com/Architectural-Approach-to-Level-Design-Second-edition/Totten/p/book/9781351116305",
+    "verification": "verified"
+  },
+  {
+    "key": "S-lynch-image-city",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Kevin Lynch. The Image of the City. MIT Press, 1960.",
+    "notes": "Introduces paths, edges, districts, nodes, and landmarks as elements of legibility and mental mapping in cities; these concepts are often adapted for virtual-space wayfinding.",
+    "group": "Level & World Design",
+    "url": "https://mitpress.mit.edu/9780262620017/the-image-of-the-city/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-mark-brown-4step",
+    "type": "Educational video",
+    "tier": "IND",
+    "citation": "Mark Brown. “Super Mario 3D World’s 4 Step Level Design.” Game Maker’s Toolkit, March 16, 2015.",
+    "notes": "Describes a recurring sequence in selected levels: introduction, development, twist, and conclusion.",
+    "group": "Progression & Playtesting",
+    "url": "https://youtu.be/dBmIkEvEBtA",
+    "verification": "verified"
+  },
+  {
+    "key": "S-meier-interesting-decisions",
+    "type": "Conference talk",
+    "tier": "GDC",
+    "citation": "Sid Meier. “Interesting Decisions.” Game Developers Conference, 2012.",
+    "notes": "Meier discusses the qualities of interesting decisions and attributes his well-known definition of games to an earlier talk; the exact 1989 provenance is commonly reported rather than independently archived here.",
+    "group": "Design first-principles",
+    "url": "https://www.gdcvault.com/play/1015756/Interesting",
+    "verification": "verified"
+  },
+  {
+    "key": "S-monetization-ethics",
+    "type": "Academic studies",
+    "tier": "ACA",
+    "citation": "Gutiérrez-Manjón et al. “Designing for Monetization: A Taxonomy of Dark Patterns in Top-Grossing GaaS Video Games.” Tripodos 59 (2026); Erica Neely. “Come for the Game, Stay for the Cash Grab.” Games and Culture 16, no. 2 (2021); Sato et al. “An Empirical Taxonomy of Monetized Random Reward Mechanisms in Games.” DiGRA 2020.",
+    "notes": "Research on manipulative monetization patterns, loot-box ethics, and monetized random-reward mechanisms. The cited works support analysis, not a single universal legal or ethical rule.",
+    "group": "Monetization, Multiplayer & Tech",
+    "url": "https://doi.org/10.51698/tripodos.2026.59.05",
+    "verification": "verified"
+  },
+  {
+    "key": "S-multiplayer-design",
+    "type": "Studio engineering articles",
+    "tier": "STU",
+    "citation": "Matt deWet and David Straily. “Peeking into VALORANT’s Netcode.” Riot Games, July 28, 2020; Riot Games. “An Update on Player Dynamics.” August 29, 2022.",
+    "notes": "First-party accounts of latency and networking design in VALORANT and Riot’s player-dynamics work. They are case studies, not universal prescriptions for all multiplayer games.",
+    "group": "Monetization, Multiplayer & Tech",
+    "url": "https://www.riotgames.com/en/news/peeking-valorants-netcode",
+    "verification": "verified"
+  },
+  {
+    "key": "S-nijman-screenshake",
+    "type": "Conference talk",
+    "tier": "IND",
+    "citation": "Jan Willem Nijman. “The Art of Screenshake.” Dutch Game Garden INDIGO Classes, 2013.",
+    "notes": "A live demonstration of iterative feedback and presentation changes applied to a simple action-game prototype. It does not establish one universal hit-pause duration.",
+    "group": "Game Feel",
+    "url": "https://youtu.be/AJdEqssNZ-U",
+    "verification": "verified"
+  },
+  {
+    "key": "S-norman-doet",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Don Norman. The Design of Everyday Things. Revised and expanded ed., Basic Books, 2013.",
+    "notes": "Foundational treatment of affordances, signifiers, mapping, feedback, discoverability, and conceptual models.",
+    "group": "Usability, UI & Accessibility",
+    "url": "https://www.hachettebookgroup.com/titles/donald-a-norman/the-design-of-everyday-things/9780465050659/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-nystrom-gpp",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Robert Nystrom. Game Programming Patterns. Genever Benning, 2014.",
+    "notes": "Explains reusable patterns for state, sequencing, decoupling, optimization, and data organization in game code. The complete text is available from the author.",
+    "group": "Programming & Architecture",
+    "url": "https://gameprogrammingpatterns.com/contents.html",
+    "verification": "verified"
+  },
+  {
+    "key": "S-perf-profiling",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Brendan Gregg. Systems Performance: Enterprise and the Cloud. 2nd ed., Addison-Wesley, 2020.",
+    "notes": "A platform-agnostic methodology for measuring performance, identifying bottlenecks, and choosing observability tools before optimizing.",
+    "group": "Performance & Optimization",
+    "url": "https://www.brendangregg.com/systems-performance-2nd-edition-book.html",
+    "verification": "verified"
+  },
+  {
+    "key": "S-perfect-imbalance",
+    "type": "Educational video",
+    "tier": "IND",
+    "citation": "Extra Credits. “Perfect Imbalance.” July 18, 2012.",
+    "notes": "Presents a contested argument that small differences between options can sustain discovery and metagame change; it should be read alongside opposing balance philosophies.",
+    "group": "Balance & Tuning",
+    "url": "https://youtu.be/e31OSVZF77w",
+    "verification": "verified"
+  },
+  {
+    "key": "S-pichlmair-johansen-survey",
+    "type": "Journal article",
+    "tier": "ACA",
+    "citation": "Martin Pichlmair and Mads Johansen. “Designing Game Feel: A Survey.” IEEE Transactions on Games 14, no. 2 (2022): 138–152.",
+    "notes": "A literature survey that organizes game-feel work into physicality, amplification, and support, and discusses tuning, juicing, and streamlining.",
+    "group": "Game Feel",
+    "url": "https://doi.org/10.1109/TG.2021.3072241",
+    "verification": "verified"
+  },
+  {
+    "key": "S-proto-vertical-slice",
+    "type": "Practitioner article",
+    "tier": "IND",
+    "citation": "Rami Ismail. “Prototypes and Vertical Slice.” Levelling the Playing Field, September 26, 2022.",
+    "notes": "Distinguishes a prototype used to test whether an idea works from a vertical slice used to test whether a team can produce it at target quality.",
+    "group": "Prototyping & Iteration",
+    "url": "https://ltpf.ramiismail.com/prototypes-and-vertical-slice/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-realtime-rendering",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Tomas Akenine-Möller, Eric Haines, Naty Hoffman, et al. Real-Time Rendering. 4th ed., CRC Press, 2018.",
+    "notes": "A comprehensive reference on the real-time rendering pipeline, lighting, shading, visibility, acceleration, and performance tradeoffs.",
+    "group": "Monetization, Multiplayer & Tech",
+    "url": "https://www.routledge.com/Real-Time-Rendering-Fourth-Edition/Akenine-Moller-Haines-Hillaire-Hoffman-Iwanicki-Pesce/p/book/9781138627000",
+    "verification": "verified"
+  },
+  {
+    "key": "S-reward-schedules",
+    "type": "Practitioner and research sources",
+    "tier": "ACA",
+    "citation": "William Wang. “Reward Schedules and When to Use Them.” Game Developer, 2017; Edward Deci. “Effects of Externally Mediated Rewards on Intrinsic Motivation.” Journal of Personality and Social Psychology 18, no. 1 (1971); Lepper, Greene, and Nisbett. “Undermining Children’s Intrinsic Interest with Extrinsic Reward.” Journal of Personality and Social Psychology 28, no. 1 (1973).",
+    "notes": "Covers common reward schedules and foundational evidence that some expected external rewards can reduce intrinsic interest. Effects depend on context; no universal ‘bonus-on-top’ guarantee is claimed.",
+    "group": "Progression & Playtesting",
+    "url": "https://www.gamedeveloper.com/business/reward-schedules-and-when-to-use-them",
+    "verification": "verified"
+  },
+  {
+    "key": "S-salen-zimmerman-rulesofplay",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Katie Salen and Eric Zimmerman. Rules of Play: Game Design Fundamentals. MIT Press, 2003.",
+    "notes": "A broad design framework covering meaningful play, rules, systems, emergence, interaction, and culture.",
+    "group": "Systems & Mechanics",
+    "url": "https://mitpress.mit.edu/9780262240451/rules-of-play/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-schell-artofgamedesign",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Jesse Schell. The Art of Game Design: A Book of Lenses. Morgan Kaufmann, 2008.",
+    "notes": "A player-experience-centered collection of practical lenses for examining game design decisions.",
+    "group": "Design first-principles",
+    "url": "https://www.sciencedirect.com/book/monograph/9780123694966/the-art-of-game-design",
+    "verification": "verified"
+  },
+  {
+    "key": "S-schreiber-balance",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Ian Schreiber and Brenda Romero. Game Balance. CRC Press, 2021.",
+    "notes": "A quantitative and qualitative treatment of dominant strategies, symmetry, cost curves, transitive and intransitive relationships, and playtesting for balance.",
+    "group": "Balance & Tuning",
+    "url": "https://www.routledge.com/Game-Balance/Romero-Schreiber/p/book/9781498799577",
+    "verification": "verified"
+  },
+  {
+    "key": "S-scope-production",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Heather Maxwell Chandler. The Game Production Handbook. 2nd ed., Jones & Bartlett Learning, 2009.",
+    "notes": "Covers production phases, schedules, milestones, risk, team processes, and managing changes to scope during development.",
+    "group": "Process, People & Business",
+    "url": "https://books.google.com/books/about/The_Game_Production_Handbook.html?id=laiOw5WkdEcC",
+    "verification": "verified"
+  },
+  {
+    "key": "S-sirlin-balance",
+    "type": "Practitioner essay",
+    "tier": "IND",
+    "citation": "David Sirlin. “Balancing Multiplayer Games, Part 1: Definitions.” Sirlin.net.",
+    "notes": "Defines competitive balance in terms of viable options and discusses dominant or degenerate strategies from a high-level play perspective.",
+    "group": "Balance & Tuning",
+    "url": "https://www.sirlin.net/articles/balancing-multiplayer-games-part-1-definitions",
+    "verification": "verified"
+  },
+  {
+    "key": "S-soren-johnson-optimize",
+    "type": "Practitioner essay",
+    "tier": "IND",
+    "citation": "Soren Johnson. “GD Column 17: Water Finds a Crack.” Designer Notes, 2011.",
+    "notes": "Examines optimization pressure and the ways players can find degenerate or unfun strategies. A related quotation often attributed to Sid Meier is not treated here as part of the source.",
+    "group": "Systems & Mechanics",
+    "url": "https://www.designer-notes.com/2011/06/",
+    "verification": "verified"
+  },
+  {
+    "key": "S-swink-gamefeel",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Steve Swink. Game Feel: A Game Designer’s Guide to Virtual Sensation. Morgan Kaufmann, 2008.",
+    "notes": "A foundational vocabulary for real-time control, simulated space, polish, and the qualities players describe as game feel.",
+    "group": "Game Feel",
+    "url": "https://www.sciencedirect.com/book/9780123743282/game-feel",
+    "verification": "verified"
+  },
+  {
+    "key": "S-thomas-johnston-animation",
+    "type": "Book",
+    "tier": "BK",
+    "citation": "Frank Thomas and Ollie Johnston. Disney Animation: The Illusion of Life. Abbeville Press, 1981.",
+    "notes": "The original presentation of the twelve principles of Disney animation, frequently adapted to interactive animation practice.",
+    "group": "Animation",
+    "url": "https://books.google.com/books/about/Disney_Animation.html?id=z86YQgAACAAJ",
+    "verification": "verified"
+  },
+  {
+    "key": "S-thorson-celeste-forgiveness",
+    "type": "Practitioner article",
+    "tier": "IND",
+    "citation": "Maddy Thorson. “Celeste & Forgiveness.” Maddy Makes Games, 2022.",
+    "notes": "A first-party explanation of several techniques Celeste uses to interpret player intent generously. The article does not publish universal frame-count prescriptions.",
+    "group": "Game Feel",
+    "url": "https://www.maddymakesgames.com/articles/celeste_and_forgiveness/index.html",
+    "verification": "verified"
+  },
+  {
+    "key": "S-worch-smith-envstory",
+    "type": "Conference talk",
+    "tier": "GDC",
+    "citation": "Matthias Worch and Harvey Smith. “What Happened Here? Environmental Storytelling.” Game Developers Conference, 2010.",
+    "notes": "Defines environmental storytelling and explains how spaces can invite players to reconstruct events and meaning.",
+    "group": "Level & World Design",
+    "url": "https://gdcvault.com/play/1012696/What-Happened-Here-Environmental",
+    "verification": "verified"
+  },
+  {
+    "key": "S-google-sre-postmortem",
+    "type": "Practitioner handbook",
+    "tier": "STU",
+    "citation": "Google. “Postmortem Culture: Learning from Failure.” Site Reliability Engineering, O’Reilly Media, 2016.",
+    "notes": "A concrete framework for blameless incident review, including contributing causes, written records, action items, and learning from failure.",
+    "group": "Process, People & Business",
+    "url": "https://sre.google/sre-book/postmortem-culture/",
+    "verification": "verified"
+  }
+]

@@ -1,0 +1,45 @@
+name: Principle proposal
+description: Propose a new universal, engine-agnostic game-development principle.
+title: "[Principle]: "
+labels: [proposal]
+body:
+  - type: textarea
+    id: statement
+    attributes:
+      label: Proposed statement
+      description: State one durable piece of guidance in plain language.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Likely type
+      options:
+        - Objective
+        - Contextual
+        - Stylistic
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why does it hold?
+      description: Explain the mechanism, not just the preference.
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Scope and exceptions
+      description: When should a developer follow it, and when should they not?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources or project evidence
+      description: Link exact, credible works and say what each supports.
+    validations:
+      required: true
+

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite it using the metadata below."
+title: "The Game Development Constitution: Universal Public Edition"
+type: dataset
+authors:
+  - family-names: Sukhavachana
+    given-names: Sontlux
+version: 1.0.0
+date-released: 2026-07-16
+license: CC-BY-4.0
+repository-code: "https://github.com/adventuresincausality/game-development-constitution"
+url: "https://adventuresincausality.github.io/game-development-constitution/"
+abstract: "A searchable, evidence-tagged corpus of 143 engine-agnostic game-development principles for human and AI use."
+keywords:
+  - game development
+  - game design
+  - software engineering
+  - artificial intelligence
+  - knowledge base
+
