@@ -7,7 +7,7 @@ import test from "node:test";
 const root = path.resolve(import.meta.dirname, "..");
 const output = path.join(root, "dist", "client");
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
-  ?? "https://adventuresincausality.github.io/game-development-constitution";
+  ?? "https://adventuresincausality.com";
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 const readOutput = (...parts) => readFile(path.join(output, ...parts), "utf8");

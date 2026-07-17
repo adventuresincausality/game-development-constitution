@@ -2,7 +2,7 @@
 
 **A searchable, evidence-tagged field guide for people and AI making games.**
 
-[Read the public edition](https://adventuresincausality.github.io/game-development-constitution/) · [Explore all principles](https://adventuresincausality.github.io/game-development-constitution/explore/) · [Use it with AI](https://adventuresincausality.github.io/game-development-constitution/for-ai/)
+[Read the public edition](https://adventuresincausality.com/) · [Explore all principles](https://adventuresincausality.com/explore/) · [Use it with AI](https://adventuresincausality.com/for-ai/)
 
 The Game Development Constitution turns scattered craft knowledge into 143 bounded, engine-agnostic principles. Each principle explains what to do, why it works, when it applies, when it does not, how it can be implemented, and where credible practitioners disagree.
 
@@ -23,9 +23,9 @@ For people, the website provides search, filters, cross-links, source records, a
 
 For AI systems, the generated corpus is available as:
 
-- [`principles.json`](https://adventuresincausality.github.io/game-development-constitution/data/principles.json)
-- [`principles.jsonl`](https://adventuresincausality.github.io/game-development-constitution/data/principles.jsonl)
-- [`manifest.json`](https://adventuresincausality.github.io/game-development-constitution/data/manifest.json)
+- [`principles.json`](https://adventuresincausality.com/data/principles.json)
+- [`principles.jsonl`](https://adventuresincausality.com/data/principles.jsonl)
+- [`manifest.json`](https://adventuresincausality.com/data/manifest.json)
 - canonical Markdown in [`content/principles`](content/principles)
 
 See [AI-USAGE.md](AI-USAGE.md) before using the corpus for retrieval or decision support.
@@ -66,4 +66,3 @@ The content generator validates public scope, references, source records, and ex
 Created and maintained by **Sontlux Sukhavachana** ([@adventuresincausality](https://github.com/adventuresincausality)), with development assistance from Claude and Codex.
 
 Content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Website code and generation scripts are licensed under the MIT License. See [LICENSE](LICENSE) for details and [CITATION.cff](CITATION.cff) for a ready-to-use citation.
-

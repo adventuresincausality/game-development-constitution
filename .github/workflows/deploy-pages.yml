@@ -36,8 +36,7 @@ jobs:
       - name: Validate and build
         run: npm test
         env:
-          NEXT_PUBLIC_BASE_PATH: /game-development-constitution
-          NEXT_PUBLIC_SITE_URL: https://adventuresincausality.github.io/game-development-constitution
+          NEXT_PUBLIC_SITE_URL: https://adventuresincausality.com
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
@@ -54,4 +53,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

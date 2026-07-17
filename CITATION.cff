@@ -9,7 +9,7 @@ version: 1.0.0
 date-released: 2026-07-16
 license: CC-BY-4.0
 repository-code: "https://github.com/adventuresincausality/game-development-constitution"
-url: "https://adventuresincausality.github.io/game-development-constitution/"
+url: "https://adventuresincausality.com/"
 abstract: "A searchable, evidence-tagged corpus of 143 engine-agnostic game-development principles for human and AI use."
 keywords:
   - game development
@@ -17,4 +17,3 @@ keywords:
   - software engineering
   - artificial intelligence
   - knowledge base
-

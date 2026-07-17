@@ -103,7 +103,7 @@ export const sectionLabels: Record<string, string> = {
 };
 
 export const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://adventuresincausality.github.io/game-development-constitution";
+export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://adventuresincausality.com";
 
 export function assetPath(pathname: string) {
   return `${basePath}${pathname}`;

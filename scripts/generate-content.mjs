@@ -131,7 +131,7 @@ const manifest = {
 fs.writeFileSync(path.join(publicDataDir, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL
-  ?? "https://adventuresincausality.github.io/game-development-constitution").replace(/\/$/, "");
+  ?? "https://adventuresincausality.com").replace(/\/$/, "");
 const sitemapRoutes = [
   "", "/explore/", "/about/", "/for-ai/", "/sources/",
   ...principles.map((principle) => `/principles/${principle.id}/`),
