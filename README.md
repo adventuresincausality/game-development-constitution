@@ -1,5 +1,9 @@
 # The Game Development Constitution
 
+> **Using this repository with AI?** Start with
+> [`AI_START_HERE.md`](AI_START_HERE.md) for task routing and minimal retrieval, then
+> use [`AI-USAGE.md`](AI-USAGE.md) for the operating rules.
+
 **A searchable, evidence-tagged field guide for people and AI making games.**
 
 [Read the public edition](https://adventuresincausality.com/) · [Explore all principles](https://adventuresincausality.com/explore/) · [Use it with AI](https://adventuresincausality.com/for-ai/)
