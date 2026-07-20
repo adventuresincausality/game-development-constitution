@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal Rendering Performance"
+  short_description: "Diagnose and optimize Unreal rendering cost"
+  default_prompt: "Use $unreal-rendering-performance to diagnose and optimize this Unreal rendering bottleneck."

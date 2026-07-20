@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Cameras and Cinematics"
+  short_description: "Build gameplay cameras and cinematic shots"
+  default_prompt: "Use $unreal-camera-cinematics to design, implement, or debug this Unreal Engine 5.8 gameplay camera or cinematic workflow."

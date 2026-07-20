@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     default: "The Game Development Constitution",
     template: "%s · Game Development Constitution",
   },
-  description: "143 engine-agnostic principles for making better games — readable by humans, structured for AI, and open to everyone.",
+  description: "143 universal game-development principles and 30 practical Unreal Engine 5.8 skills—readable by humans, structured for AI, and open to everyone.",
   applicationName: "Game Development Constitution",
   authors: [{ name: "Sontlux Sukhavachana", url: "https://github.com/adventuresincausality" }],
   creator: "Sontlux Sukhavachana",
-  keywords: ["game development", "game design", "indie games", "AI game development", "playtesting", "game production"],
+  keywords: ["game development", "game design", "Unreal Engine 5.8", "indie games", "AI game development", "playtesting", "game production"],
   alternates: { canonical: siteUrl },
   openGraph: {
     type: "website",

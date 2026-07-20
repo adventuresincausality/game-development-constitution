@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Landscape"
+  short_description: "Build and optimize Unreal landscapes"
+  default_prompt: "Use $unreal-landscape to design, build, optimize, and verify a Landscape workflow in Unreal Engine 5.8."

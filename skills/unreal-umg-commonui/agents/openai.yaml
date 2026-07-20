@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 UMG and CommonUI"
+  short_description: "Build scalable responsive game UI systems"
+  default_prompt: "Use $unreal-umg-commonui to design, implement, optimize, and verify a responsive cross-platform UI system in Unreal Engine 5.8."

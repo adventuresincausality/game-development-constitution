@@ -15,12 +15,12 @@ export default function Home() {
         <div className="hero__grid" aria-hidden="true" />
         <div className="shell hero__inner">
           <div className="hero__copy">
-            <p className="eyebrow"><span>Open reference</span><span>Public edition v1.0</span></p>
+            <p className="eyebrow"><span>Open reference</span><span>Public edition v1.1</span></p>
             <h1>Make better game decisions, <em>one principle at a time.</em></h1>
-            <p className="hero__lede">A searchable field guide of 143 engine-agnostic principles—built for developers who need clarity and AI collaborators that need structure.</p>
+            <p className="hero__lede">A searchable field guide of 143 universal principles plus 30 practical Unreal Engine 5.8 skills—built for developers who need clarity and AI collaborators that need structure.</p>
             <div className="button-row">
               <a className="button button--signal" href={assetPath("/explore")}>Explore the principles <span aria-hidden="true">→</span></a>
-              <a className="button button--ghost" href={assetPath("/downloads/game-development-field-guide.pdf")}>Download the field guide</a>
+              <a className="button button--ghost" href={assetPath("/unreal")}>Open the Unreal field manual</a>
             </div>
             <form className="hero-search" action={assetPath("/explore")} method="get">
               <label>
@@ -56,7 +56,7 @@ export default function Home() {
           <div><strong>{principles.length}</strong><span>actionable principles</span></div>
           <div><strong>{domainOrder.length}</strong><span>development domains</span></div>
           <div><strong>{sources.length}</strong><span>source records</span></div>
-          <div><strong>2</strong><span>ways to read: human + AI</span></div>
+          <div><strong>30</strong><span>Unreal 5.8 skills</span></div>
         </div>
       </section>
 
@@ -136,13 +136,13 @@ export default function Home() {
           <div className="audience-card">
             <span className="audience-card__number">H</span>
             <h3>For humans</h3>
-            <p>Search by the problem in front of you, follow connected ideas, and keep the portable field guide nearby.</p>
+            <p>Search universal principles or route concrete Unreal tasks to a focused, human-readable subsystem manual.</p>
             <a href={assetPath("/downloads/game-development-field-guide.pdf")}>Get the PDF <span aria-hidden="true">↗</span></a>
           </div>
           <div className="audience-card audience-card--dark">
             <span className="audience-card__number">AI</span>
             <h3>For AI collaborators</h3>
-            <p>Use stable IDs, structured metadata, explicit exceptions, JSONL, and source keys without flattening context.</p>
+            <p>Use stable principle IDs plus portable SKILL.md folders, focused references, structured exports, and narrow retrieval.</p>
             <a href={assetPath("/for-ai")}>Open the AI guide <span aria-hidden="true">→</span></a>
           </div>
         </div>

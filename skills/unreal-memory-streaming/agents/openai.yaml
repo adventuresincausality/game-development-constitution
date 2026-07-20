@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal Memory and Streaming"
+  short_description: "Control Unreal residency, streaming, and hitches"
+  default_prompt: "Use $unreal-memory-streaming to diagnose and fix this Unreal memory, loading, or streaming problem."

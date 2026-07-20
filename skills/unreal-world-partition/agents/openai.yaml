@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 World Partition"
+  short_description: "Build and debug streamed large worlds"
+  default_prompt: "Use $unreal-world-partition to design, configure, build, and verify a streamed large world in Unreal Engine 5.8."

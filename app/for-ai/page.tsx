@@ -3,7 +3,7 @@ import { assetPath, siteUrl } from "../lib/content";
 
 export const metadata: Metadata = {
   title: "For AI collaborators",
-  description: "Machine-readable game-development principles with stable IDs, confidence, exceptions, relationships, sources, JSON, and JSONL.",
+  description: "Machine-readable game-development principles and portable Unreal Engine 5.8 skills with structured JSON, JSONL, Markdown, and local downloads.",
   alternates: { canonical: `${siteUrl}/for-ai/` },
 };
 
@@ -49,6 +49,12 @@ export default function ForAiPage() {
             <a className="format-card" href="https://github.com/adventuresincausality/game-development-constitution/tree/main/content/principles">
               <span>.md + YAML</span><h3>Canonical human source</h3><p>Readable Markdown with machine-readable front matter and permanent filenames.</p><strong>Browse Markdown ↗</strong>
             </a>
+            <a className="format-card" href={assetPath("/data/unreal-skills.jsonl")}>
+              <span>UE .jsonl</span><h3>Unreal skill records</h3><p>One complete subsystem skill and its focused references per line for local retrieval pipelines.</p><strong>Download Unreal JSONL ↘</strong>
+            </a>
+            <a className="format-card" href={assetPath("/downloads/unreal-engine-5.8-ai-skills.zip")}>
+              <span>.zip</span><h3>Local Unreal skill library</h3><p>All 30 SKILL.md folders, references, router, license, and independence notice in one portable bundle.</p><strong>Download all skills ↘</strong>
+            </a>
           </div>
         </div>
       </section>
@@ -69,6 +75,21 @@ export default function ForAiPage() {
             <div className="prompt-card__bar"><span>Suggested instruction</span><span>plain text</span></div>
             <pre><code>{samplePrompt}</code></pre>
           </div>
+        </div>
+      </section>
+
+      <section className="section section--signal">
+        <div className="shell unreal-ai-setup">
+          <div>
+            <p className="eyebrow eyebrow--dark">Local Unreal setup</p>
+            <h2>Give the agent a library, not a giant prompt.</h2>
+            <p>Download and extract the bundle into a folder your AI can read. Direct it to <code>UNREAL_AI_START_HERE.md</code>; the router will choose one primary skill and load only the references needed for the current task.</p>
+            <div className="button-row">
+              <a className="button button--ink" href={assetPath("/downloads/unreal-engine-5.8-ai-skills.zip")}>Download 30 Unreal skills</a>
+              <a className="button button--outline" href={assetPath("/unreal")}>Browse as a human</a>
+            </div>
+          </div>
+          <pre><code>{`1. Extract the bundle\n2. Grant your AI access to the folder\n3. Say: “Read UNREAL_AI_START_HERE.md, then help me diagnose…”\n4. Keep the primary skill and relevant reference in context`}</code></pre>
         </div>
       </section>
 

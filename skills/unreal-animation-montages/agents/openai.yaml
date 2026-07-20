@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Animation Montages"
+  short_description: "Build and debug gameplay animation actions"
+  default_prompt: "Use $unreal-animation-montages to implement or diagnose this Unreal Engine 5.8 gameplay animation action."

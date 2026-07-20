@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 GAS Attributes and Effects"
+  short_description: "Model attributes and Gameplay Effects safely"
+  default_prompt: "Use $unreal-gas-attributes-effects to design attributes, effects, calculations, and clamping in Unreal Engine 5.8."

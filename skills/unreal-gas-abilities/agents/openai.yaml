@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 GAS Abilities"
+  short_description: "Build reliable network-ready GAS abilities"
+  default_prompt: "Use $unreal-gas-abilities to implement a complete Gameplay Ability lifecycle in Unreal Engine 5.8."

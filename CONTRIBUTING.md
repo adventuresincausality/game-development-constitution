@@ -10,7 +10,8 @@ The most valuable contributions are usually small and specific: a stronger prima
 2. Identify the exact claim that should change.
 3. Prefer primary sources, peer-reviewed work, first-party talks, or established books.
 4. Explain what the source supports. Do not treat a citation as support for claims it never makes.
-5. Keep advice engine-agnostic and project-agnostic in the universal edition.
+5. Keep universal principles engine-agnostic. Keep Unreal skills generally applicable and
+   entirely free of private project or studio context.
 
 ## Principle requirements
 
@@ -36,6 +37,11 @@ Use **objective** only for broadly portable guidance. Use **contextual** when au
 - Flag disputed attribution, inaccessible originals, and secondary reporting.
 - Never invent page numbers, quotations, dates, talks, or study findings.
 
+For Unreal skill contributions, prefer current Epic documentation, API references, release
+notes, engine source available under its applicable license, and first-party samples. Explain
+claims in original language and link to the official source. Do not add Epic documentation
+prose, screenshots, logos, Engine Code, or assets. Read `UNREAL-ENGINE-NOTICE.md` first.
+
 ## Validate locally
 
 ```bash
@@ -55,4 +61,3 @@ Keep each pull request focused. In the description, state:
 - whether it changes meaning, confidence, or only presentation.
 
 By contributing content, you agree that it may be distributed under CC BY 4.0. By contributing software, you agree that it may be distributed under the MIT License.
-

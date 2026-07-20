@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal Packaging and Deployment"
+  short_description: "Build, cook, package, deploy, and diagnose Unreal"
+  default_prompt: "Use $unreal-packaging-deployment to create or diagnose this Unreal build and release pipeline."

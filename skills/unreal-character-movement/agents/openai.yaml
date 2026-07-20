@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Character Movement"
+  short_description: "Tune and network Character Movement systems"
+  default_prompt: "Use $unreal-character-movement to design, tune, and verify a responsive network-ready character movement system in Unreal Engine 5.8."

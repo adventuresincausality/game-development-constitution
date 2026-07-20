@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Editor Automation"
+  short_description: "Automate Unreal Editor workflows safely"
+  default_prompt: "Use $unreal-editor-automation to build a safe, repeatable Unreal Editor automation workflow."

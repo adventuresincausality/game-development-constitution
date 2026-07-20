@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 PCG"
+  short_description: "Build and optimize procedural content graphs"
+  default_prompt: "Use $unreal-pcg to design, implement, optimize, and verify a procedural content workflow in Unreal Engine 5.8."

@@ -1,8 +1,8 @@
 # AI START HERE
 
-This is the entry point for AI systems and AI-assisted workflows using the **public,
-engine-agnostic** Game Development Constitution. The corpus contains 143 bounded
-principles across 24 game-development domains.
+This is the entry point for AI systems and AI-assisted workflows using the public Game
+Development Constitution. It contains 143 engine-agnostic principles across 24 domains
+and a separate operational library of 30 Unreal Engine 5.8 skills.
 
 Do not begin by ingesting the README, website HTML, PDF, or entire repository. Use the
 structured corpus and retrieve the smallest set of complete principles that answers the
@@ -12,6 +12,7 @@ current question.
 
 | Need | Use |
 |---|---|
+| Perform or diagnose a concrete Unreal Engine task | [`UNREAL_AI_START_HERE.md`](UNREAL_AI_START_HERE.md), then [`skills/INDEX.md`](skills/INDEX.md) |
 | Confirm version, counts, schema, license, and corpus hash | [`public/data/manifest.json`](public/data/manifest.json) |
 | Retrieve or stream individual records | [`public/data/principles.jsonl`](public/data/principles.jsonl) |
 | Filter or search the complete corpus locally | [`public/data/principles.json`](public/data/principles.json) |
@@ -59,8 +60,8 @@ When using the corpus:
 - separate durable principles from adaptable implementation suggestions;
 - say explicitly when project evidence or user constraints should override the corpus.
 
-The constitution is decision support, not an oracle. It intentionally excludes Unreal
-Engine guidance and private project/studio material.
+The constitution is decision support, not an oracle. The public repository contains
+general guidance only and excludes all private game, project, and studio material.
 
 ## Do not use these as retrieval sources
 
@@ -71,3 +72,7 @@ Engine guidance and private project/studio material.
 
 For machine retrieval, prefer JSONL or JSON. For exact wording and durable citations,
 use the corresponding canonical Markdown record.
+
+For Unreal implementation work, do not use the principle retrieval procedure above as a
+substitute for subsystem routing. Follow `UNREAL_AI_START_HERE.md`, select one primary
+skill, and load only its relevant references.

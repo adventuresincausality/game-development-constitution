@@ -38,6 +38,7 @@ export type Source = {
   verification: string;
 };
 
+
 export const principles = principlesJson as Principle[];
 export const sources = sourcesJson as Source[];
 export const principleById = new Map(principles.map((principle) => [principle.id, principle]));

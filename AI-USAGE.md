@@ -33,5 +33,22 @@ For each recommendation:
 - `content/principles/*.md`: canonical Markdown with YAML front matter
 - `public/data/manifest.json`: version, counts, schema, license, and SHA-256 integrity hash
 
-The generated files are published by the website and created during `npm run generate`.
+## Unreal Engine 5.8 skills
 
+For a concrete Unreal task, begin with `UNREAL_AI_START_HERE.md` and `skills/INDEX.md`.
+Choose one primary subsystem skill, read its complete `SKILL.md`, and load only the focused
+reference needed for the current action or symptom. Add a secondary skill only when the
+router names an explicit ownership seam.
+
+Available formats:
+
+- `skills/*/SKILL.md`: canonical portable skill entry points
+- `skills/*/references/*.md`: progressively loaded operational detail
+- `public/data/unreal-skills.jsonl`: one complete skill and its references per line
+- `public/data/unreal-skills.json`: complete structured Unreal corpus
+- `public/downloads/unreal-engine-5.8-ai-skills.zip`: offline bundle with router and notices
+
+Do not ingest all skills into one prompt. Give the AI folder access, start at the router,
+and retrieve narrowly.
+
+The generated files are published by the website and created during `npm run generate`.

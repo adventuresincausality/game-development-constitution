@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Gameplay Tags"
+  short_description: "Design and apply governed gameplay tag systems"
+  default_prompt: "Use $unreal-gameplay-tags to design a tag taxonomy and implement exact or hierarchical tag queries in Unreal Engine 5.8."

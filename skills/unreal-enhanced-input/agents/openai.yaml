@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Enhanced Input"
+  short_description: "Build contextual remappable input systems"
+  default_prompt: "Use $unreal-enhanced-input to implement contextual controls, triggers, remapping, and gameplay input buffering in Unreal Engine 5.8."

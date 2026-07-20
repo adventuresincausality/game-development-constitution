@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Animation Blending"
+  short_description: "Build and debug animation blends in UE 5.8"
+  default_prompt: "Use $unreal-animation-blending to choose and configure the correct Unreal Engine 5.8 animation blending method for this character behavior."

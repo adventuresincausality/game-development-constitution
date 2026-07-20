@@ -4,8 +4,8 @@ Copyright (c) 2026 Sontlux Sukhavachana
 
 CONTENT LICENSE
 
-The written constitution, principle records, source registry, downloadable field
-guides, and generated content exports are licensed under the Creative Commons
+The written constitution, principle records, Unreal Engine skill guidance, source registry,
+downloadable field guides, and generated content exports are licensed under the Creative Commons
 Attribution 4.0 International License (CC BY 4.0).
 
 You may share and adapt that material for any purpose, including commercially,
@@ -20,6 +20,13 @@ Suggested attribution:
 “The Game Development Constitution” by Sontlux Sukhavachana,
 https://github.com/adventuresincausality/game-development-constitution,
 licensed under CC BY 4.0. Changes, if any, were made by [name].
+
+THIRD-PARTY MATERIAL
+
+The content license applies only to original material contributed to this repository.
+Product names, trademarks, API identifiers, documentation, and other third-party material
+remain the property of their respective owners and are not relicensed here. See
+UNREAL-ENGINE-NOTICE.md for the Unreal Engine publication boundary and independence notice.
 
 SOFTWARE LICENSE
 
@@ -42,4 +49,3 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-

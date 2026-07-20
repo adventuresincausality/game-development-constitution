@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 MetaSounds"
+  short_description: "Build and debug procedural game audio"
+  default_prompt: "Use $unreal-metasounds to design, implement, mix, or debug this Unreal Engine 5.8 audio workflow."

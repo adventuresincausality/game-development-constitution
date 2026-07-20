@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Control Rig and IK"
+  short_description: "Build and debug Unreal IK and retargeting"
+  default_prompt: "Use $unreal-control-rig-ik to diagnose and implement this Unreal Engine 5.8 IK, retargeting, or Control Rig workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Replication"
+  short_description: "Design and debug authoritative network state"
+  default_prompt: "Use $unreal-replication to design, implement, optimize, and verify server-authoritative replication in Unreal Engine 5.8."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Data Assets and Tables"
+  short_description: "Design and load data-driven Unreal content"
+  default_prompt: "Use $unreal-data-assets-tables to design a validated data and asset-loading workflow for this Unreal project."

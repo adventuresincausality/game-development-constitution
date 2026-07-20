@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Navigation and AI"
+  short_description: "Build and debug Unreal navigation and AI"
+  default_prompt: "Use $unreal-navigation-ai to design, implement, optimize, and verify navigation and AI behavior in Unreal Engine 5.8."

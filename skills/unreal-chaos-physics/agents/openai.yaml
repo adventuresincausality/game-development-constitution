@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal Chaos Physics"
+  short_description: "Build and debug Chaos physics systems"
+  default_prompt: "Use $unreal-chaos-physics to build, tune, and debug this Unreal physics system."

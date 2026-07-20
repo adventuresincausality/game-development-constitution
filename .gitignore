@@ -14,6 +14,7 @@
 /public/data/
 /public/sitemap.xml
 /public/robots.txt
+/public/downloads/unreal-engine-5.8-ai-skills.zip
 
 # Local-only import and private-scope sanitation tools. Never publish these.
 /scripts/import-sources.mjs

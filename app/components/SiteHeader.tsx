@@ -2,6 +2,7 @@ import { assetPath } from "../lib/content";
 
 const nav = [
   ["Explore", "/explore"],
+  ["Unreal 5.8", "/unreal"],
   ["For AI", "/for-ai"],
   ["Sources", "/sources"],
   ["About", "/about"],

@@ -60,7 +60,7 @@ export default async function PrinciplePage({ params }: { params: Promise<{ id: 
   const previous = principles[index - 1];
   const next = principles[index + 1];
   const citedSources = principle.sources.map((key) => sourceByKey.get(key)).filter(Boolean);
-  const copyContent = `${principle.rawMarkdown}\nCanonical URL: ${siteUrl}/principles/${principle.id}/\nPublic edition: v1.0`;
+  const copyContent = `${principle.rawMarkdown}\nCanonical URL: ${siteUrl}/principles/${principle.id}/\nPublic edition: v1.1`;
 
   return (
     <article className="principle-page">

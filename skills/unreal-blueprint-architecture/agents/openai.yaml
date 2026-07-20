@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Blueprint Architecture"
+  short_description: "Structure scalable Blueprint gameplay systems"
+  default_prompt: "Use $unreal-blueprint-architecture to design a maintainable Blueprint system and choose the correct communication patterns in Unreal Engine 5.8."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Motion Matching"
+  short_description: "Build and debug motion-matched animation"
+  default_prompt: "Use $unreal-motion-matching to design, tune, or debug this Unreal Engine 5.8 Motion Matching workflow."

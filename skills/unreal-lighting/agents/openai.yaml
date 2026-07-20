@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Lighting"
+  short_description: "Tune Lumen, exposure, lights, and atmosphere"
+  default_prompt: "Use $unreal-lighting to diagnose and tune an Unreal Engine 5.8 lighting setup for the intended visual result and target hardware."

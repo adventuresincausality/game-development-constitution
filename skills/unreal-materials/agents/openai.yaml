@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Materials"
+  short_description: "Build, tune, and profile Unreal materials"
+  default_prompt: "Use $unreal-materials to select, build, tune, and validate this Unreal Engine 5.8 material workflow."

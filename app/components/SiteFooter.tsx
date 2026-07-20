@@ -13,6 +13,7 @@ export function SiteFooter() {
         </div>
         <div className="site-footer__links" aria-label="Footer navigation">
           <a href={assetPath("/explore")}>Explore</a>
+          <a href={assetPath("/unreal")}>Unreal 5.8</a>
           <a href={assetPath("/for-ai")}>For AI</a>
           <a href={assetPath("/sources")}>Sources</a>
           <a href={assetPath("/about")}>About</a>
@@ -21,7 +22,8 @@ export function SiteFooter() {
         <div className="site-footer__meta">
           <p>Created and maintained by Sontlux Sukhavachana.</p>
           <p>Developed with assistance from Claude and Codex.</p>
-          <p><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · Public edition v1.0</p>
+          <p><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · Public edition v1.1</p>
+          <p><a href={assetPath("/unreal/legal")}>Unreal trademark and independence notice</a></p>
         </div>
       </div>
     </footer>

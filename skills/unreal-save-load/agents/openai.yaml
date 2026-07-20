@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal Save and Load"
+  short_description: "Build durable versioned Unreal persistence"
+  default_prompt: "Use $unreal-save-load to design or debug this Unreal persistence system."

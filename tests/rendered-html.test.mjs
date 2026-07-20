@@ -17,21 +17,24 @@ test("publishes the designed static site with correct canonical metadata", async
   assert.match(html, /<title>The Game Development Constitution<\/title>/);
   assert.match(html, /143<\/strong><span>actionable principles/);
   assert.match(html, /Make better game decisions/);
+  assert.match(html, /30<\/strong><span>Unreal 5\.8 skills/);
   assert.match(html, new RegExp(`rel="canonical" href="${siteUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\/?"`));
   assert.match(html, new RegExp(`action="${basePath.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\/explore"`));
   assert.doesNotMatch(html, /vinext-starter|Codex is working|Your site is taking shape/);
 });
 
 test("exports every principle and the complete machine-readable corpus", async () => {
-  const [principlesText, sourcesText, manifestText, markdownFiles] = await Promise.all([
+  const [principlesText, sourcesText, manifestText, unrealSkillsText, markdownFiles] = await Promise.all([
     readFile(path.join(root, "public", "data", "principles.json"), "utf8"),
     readFile(path.join(root, "public", "data", "sources.json"), "utf8"),
     readFile(path.join(root, "public", "data", "manifest.json"), "utf8"),
+    readFile(path.join(root, "public", "data", "unreal-skills.json"), "utf8"),
     readdir(path.join(root, "public", "data", "principles")),
   ]);
   const principles = JSON.parse(principlesText);
   const sources = JSON.parse(sourcesText);
   const manifest = JSON.parse(manifestText);
+  const unrealSkills = JSON.parse(unrealSkillsText);
 
   assert.equal(principles.length, 143);
   assert.equal(markdownFiles.filter((name) => name.endsWith(".md")).length, 143);
@@ -40,6 +43,16 @@ test("exports every principle and the complete machine-readable corpus", async (
   assert.ok(sources.every((source) => /^https:\/\//.test(source.url)));
   assert.equal(manifest.principleCount, 143);
   assert.equal(manifest.sourceCount, 48);
+  assert.equal(manifest.unrealEngineVersion, "5.8");
+  assert.equal(manifest.unrealSkillCount, 30);
+  assert.equal(manifest.unrealReferenceCount, 272);
+  assert.equal(unrealSkills.length, 30);
+  assert.equal(unrealSkills.reduce((total, skill) => total + skill.referenceCount, 0), 272);
+  assert.ok(unrealSkills.every((skill) => skill.slug.startsWith("unreal-") && skill.rawMarkdown.includes("---")));
+  assert.equal(
+    manifest.unrealContentSha256,
+    crypto.createHash("sha256").update(unrealSkillsText).digest("hex"),
+  );
   assert.equal(
     manifest.contentSha256,
     crypto.createHash("sha256").update(principlesText).digest("hex"),
@@ -49,14 +62,20 @@ test("exports every principle and the complete machine-readable corpus", async (
 });
 
 test("exports stable routes, discovery files, and downloads", async () => {
-  const [principleHtml, sitemap, robots] = await Promise.all([
+  const [principleHtml, unrealHtml, ikHtml, sitemap, robots] = await Promise.all([
     readOutput("principles", "GDC-L1-DESIGN-0001", "index.html"),
+    readOutput("unreal", "index.html"),
+    readOutput("unreal", "unreal-control-rig-ik", "ik-retargeter-setup", "index.html"),
     readOutput("sitemap.xml"),
     readOutput("robots.txt"),
   ]);
   assert.match(principleHtml, /Design for the player/);
+  assert.match(unrealHtml, /Find the system that owns the problem/);
+  assert.match(unrealHtml, /30<\/strong><span>subsystem skills/);
+  assert.match(ikHtml, /IK Rig and Retargeter setup/);
+  assert.match(ikHtml, /ik-retargeter-setup\.md/);
   assert.match(principleHtml, new RegExp(`${siteUrl}/principles/GDC-L1-DESIGN-0001/`));
-  assert.equal((sitemap.match(/<url>/g) ?? []).length, 148);
+  assert.equal((sitemap.match(/<url>/g) ?? []).length, 452);
   assert.match(robots, new RegExp(`${siteUrl}/sitemap.xml`));
 
   await Promise.all([
@@ -64,5 +83,34 @@ test("exports stable routes, discovery files, and downloads", async () => {
     access(path.join(output, "downloads", "game-development-field-guide.docx")),
     access(path.join(output, "data", "principles.jsonl")),
     access(path.join(output, "data", "manifest.json")),
+    access(path.join(output, "data", "unreal-skills.json")),
+    access(path.join(output, "data", "unreal-skills.jsonl")),
+    access(path.join(output, "downloads", "unreal-engine-5.8-ai-skills.zip")),
   ]);
+});
+
+test("public Unreal corpus contains no private project or studio markers", async () => {
+  const blocked = [
+    /GDC-L[3-9]/i,
+    /principles[\\/]L3/i,
+    /L3-studio/i,
+    /private L3/i,
+    /(?:this|our) studio/i,
+    /studio-specific/i,
+    /internal (?:game|project|studio) source/i,
+  ];
+  const pending = [path.join(root, "skills")];
+  const files = [];
+  while (pending.length) {
+    const current = pending.pop();
+    for (const entry of await readdir(current, { withFileTypes: true })) {
+      const target = path.join(current, entry.name);
+      if (entry.isDirectory()) pending.push(target);
+      else if (/\.(?:md|yaml)$/.test(entry.name)) files.push(target);
+    }
+  }
+  for (const file of files) {
+    const text = await readFile(file, "utf8");
+    for (const pattern of blocked) assert.doesNotMatch(text, pattern, `${file} contains ${pattern}`);
+  }
 });

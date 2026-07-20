@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Niagara"
+  short_description: "Build and optimize Unreal Niagara effects"
+  default_prompt: "Use $unreal-niagara to design, implement, debug, and optimize this Unreal Engine 5.8 visual effect."

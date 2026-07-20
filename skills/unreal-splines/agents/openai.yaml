@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal 5.8 Splines"
+  short_description: "Build spline paths, meshes, and movement in UE 5.8"
+  default_prompt: "Use $unreal-splines to design and implement a spline-based road with editable Blueprint controls in Unreal Engine 5.8."

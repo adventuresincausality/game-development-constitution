@@ -426,6 +426,87 @@ code, pre, kbd { font-family: var(--font-mono); }
 .principle-pagination span { color: var(--orange); font: 700 .64rem/1 var(--font-mono); text-transform: uppercase; }
 .principle-pagination strong { font: 500 1.2rem/1.15 var(--font-display); }
 
+/* Unreal Engine operational library */
+.unreal-hero { position: relative; overflow: hidden; padding-bottom: 0; background: #112823; color: var(--white); }
+.unreal-hero::after { content: "UE 5.8"; position: absolute; right: -1vw; bottom: -8vw; color: rgba(223,255,79,.055); font: 800 clamp(8rem, 24vw, 24rem)/1 var(--font-mono); letter-spacing: -.09em; pointer-events: none; }
+.unreal-hero .page-hero__grid, .unreal-stat-rail { position: relative; z-index: 1; }
+.unreal-hero .page-hero__grid > div:last-child { display: flex; flex-direction: column; align-items: flex-start; gap: 1rem; }
+.unreal-hero .page-hero__grid > div:last-child > p { margin: 0; }
+.unreal-stat-rail { margin-top: 4rem; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line-dark); }
+.unreal-stat-rail > div { padding: 1.6rem 1.4rem; display: flex; flex-direction: column; border-left: 1px solid var(--line-dark); }
+.unreal-stat-rail > div:last-child { border-right: 1px solid var(--line-dark); }
+.unreal-stat-rail strong { color: var(--signal); font: 500 2.3rem/1 var(--font-display); }
+.unreal-stat-rail span { margin-top: .45rem; color: #a9bbb5; font-size: .7rem; text-transform: uppercase; letter-spacing: .07em; }
+.unreal-route-grid { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); background: var(--paper-bright); }
+.unreal-route-grid article { min-height: 250px; padding: 1.4rem; border-right: 1px solid var(--line); }
+.unreal-route-grid article:last-child { border: 0; }
+.unreal-route-grid article > span { color: var(--orange); font: 800 .68rem/1 var(--font-mono); }
+.unreal-route-grid h3 { margin: 4rem 0 .8rem; font: 600 1.45rem/1.05 var(--font-display); }
+.unreal-route-grid p { margin: 0; color: var(--ink-muted); font-size: .84rem; }
+.unreal-filters { padding: 1rem; display: grid; grid-template-columns: 1fr 260px; gap: 1rem; border: 1px solid var(--line); background: var(--paper-bright); }
+.unreal-filters label { display: flex; flex-direction: column; gap: .45rem; color: var(--ink-muted); font: 800 .66rem/1.2 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
+.unreal-filters input, .unreal-filters select { min-height: 52px; padding: .8rem 1rem; border: 1px solid var(--line); background: #fffefa; color: var(--ink); font: 500 .92rem/1.2 var(--font-sans); text-transform: none; letter-spacing: 0; }
+.unreal-results-bar { padding: 1.2rem 0; display: flex; align-items: center; gap: .35rem; color: var(--ink-muted); font-size: .78rem; }
+.unreal-results-bar strong { color: var(--ink); }
+.unreal-results-bar button { margin-left: auto; }
+.unreal-skill-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; border: 1px solid var(--line); background: var(--line); }
+.unreal-skill-card { min-height: 320px; padding: 1.35rem; display: flex; flex-direction: column; background: var(--paper-bright); transition: background 160ms ease, transform 160ms ease; }
+.unreal-skill-card:hover { position: relative; z-index: 1; background: var(--white); transform: translateY(-3px); box-shadow: 0 12px 30px rgba(16,35,31,.1); }
+.unreal-skill-card > div { display: flex; flex-direction: column; gap: .3rem; }
+.unreal-skill-card > div span { color: var(--orange); font: 800 .63rem/1 var(--font-mono); text-transform: uppercase; }
+.unreal-skill-card code { color: #7b8a85; font-size: .61rem; }
+.unreal-skill-card h2 { margin: 3.2rem 0 .9rem; font: 600 1.7rem/1.03 var(--font-display); letter-spacing: -.025em; }
+.unreal-skill-card p { color: var(--ink-muted); font-size: .86rem; }
+.unreal-skill-card > strong { margin-top: auto; padding-top: 1rem; display: flex; justify-content: space-between; border-top: 1px solid var(--line); font-size: .72rem; }
+.unreal-empty { padding: 5rem 1rem; border: 1px solid var(--line); text-align: center; }
+.unreal-empty h2 { font: 500 2.2rem/1 var(--font-display); }
+.unreal-empty p { color: var(--ink-muted); }
+.unreal-download-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem 6rem; align-items: start; }
+.unreal-download-grid h2 { margin: 1rem 0; font: 500 clamp(3rem, 5vw, 5rem)/.96 var(--font-display); }
+.unreal-download-grid > div > p:last-child { color: #a9bbb5; }
+.unreal-download-grid .numbered-list { margin: 0; }
+.unreal-download-grid .button-row { grid-column: 1 / -1; }
+.unreal-legal-callout { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: end; }
+.unreal-legal-callout h2 { max-width: 620px; font: 500 clamp(2.8rem, 5vw, 5rem)/.98 var(--font-display); }
+.unreal-legal-callout > div:last-child { color: var(--ink-muted); }
+.unreal-doc-hero h1 { max-width: 980px; }
+.unreal-doc-layout { padding-block: 5rem 7rem; display: grid; grid-template-columns: 260px minmax(0, 820px); gap: 6rem; align-items: start; }
+.unreal-doc-index { position: sticky; top: 7rem; max-height: calc(100vh - 9rem); padding-right: .6rem; display: flex; flex-direction: column; gap: .55rem; overflow-y: auto; }
+.unreal-doc-index > p, .unreal-reference-layout > aside > p { padding-bottom: .8rem; margin-bottom: .3rem; border-bottom: 1px solid var(--line); font: 800 .65rem/1 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; }
+.unreal-doc-index > a:not(.button) { color: var(--ink-muted); font-size: .75rem; line-height: 1.25; }
+.unreal-doc-index > a:not(.button):hover { color: var(--ink); text-decoration: underline; }
+.unreal-doc-index .button { margin-top: 1.2rem; font-size: .7rem; text-align: center; }
+.unreal-doc__intro { margin-bottom: 3rem; padding: 1.5rem; border-left: 6px solid var(--signal-dark); background: var(--paper-bright); color: var(--ink); font: 500 1.3rem/1.35 var(--font-display); }
+.unreal-doc .markdown { font-size: 1rem; }
+.unreal-doc .markdown h2 { margin: 4.5rem 0 1.25rem; padding-top: 2rem; border-top: 1px solid var(--line); font: 500 2.35rem/1 var(--font-display); letter-spacing: -.03em; }
+.unreal-doc .markdown h3 { margin: 2.5rem 0 1rem; font: 600 1.45rem/1.1 var(--font-display); }
+.unreal-doc .markdown a { text-decoration: underline; text-decoration-color: var(--sky); text-underline-offset: 3px; }
+.unreal-doc .markdown pre { max-width: 100%; padding: 1.1rem; overflow-x: auto; background: var(--ink); color: #e8f1ed; }
+.unreal-doc .markdown pre code { padding: 0; background: transparent; color: inherit; }
+.unreal-doc .markdown table { width: 100%; margin: 1.5rem 0; border-collapse: collapse; font-size: .82rem; }
+.unreal-doc .markdown th, .unreal-doc .markdown td { padding: .7rem; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+.unreal-doc .markdown th { background: #e5dfd0; color: var(--ink); }
+.unreal-reference-shelf { margin-top: 6rem; padding-top: 4rem; border-top: 3px solid var(--ink); }
+.unreal-reference-shelf h2 { margin: 1rem 0 2rem; font: 500 3rem/1 var(--font-display); }
+.unreal-reference-shelf > div { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; border: 1px solid var(--line); background: var(--line); }
+.unreal-reference-shelf a { min-height: 170px; padding: 1rem; display: flex; flex-direction: column; background: var(--paper-bright); }
+.unreal-reference-shelf a:hover { background: var(--white); }
+.unreal-reference-shelf a span { color: var(--orange); font: 800 .62rem/1 var(--font-mono); }
+.unreal-reference-shelf a strong { margin: 2rem 0 1rem; font: 600 1.2rem/1.1 var(--font-display); }
+.unreal-reference-shelf a small { margin-top: auto; font-weight: 800; }
+.unreal-reference-hero { padding-block: 3rem 4rem; background: var(--ink); color: var(--white); }
+.unreal-reference-hero h1 { max-width: 960px; margin: 1.2rem 0 2rem; font: 500 clamp(3rem, 6vw, 6rem)/.95 var(--font-display); letter-spacing: -.045em; }
+.unreal-reference-hero__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; color: #aebdb8; }
+.unreal-reference-hero__meta code { font-size: .7rem; }
+.unreal-reference-layout { padding-block: 5rem 7rem; display: grid; grid-template-columns: 220px minmax(0, 820px); gap: 7rem; align-items: start; }
+.unreal-reference-layout > aside { position: sticky; top: 7rem; }
+.unreal-reference-layout > aside a { display: flex; flex-direction: column; gap: .55rem; }
+.unreal-reference-layout > aside strong { font: 600 1.2rem/1.15 var(--font-display); }
+.unreal-reference-layout > aside span { color: var(--orange); font-size: .7rem; font-weight: 800; }
+.unreal-ai-setup { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+.unreal-ai-setup h2 { margin: 1rem 0; font: 500 clamp(3rem, 5vw, 5rem)/.96 var(--font-display); }
+.unreal-ai-setup pre { margin: 0; padding: 1.5rem; overflow-x: auto; background: var(--ink); color: var(--white); box-shadow: var(--shadow); white-space: pre-wrap; }
+
 .not-found { min-height: 65vh; padding-block: 8rem; text-align: center; }
 .not-found > span { color: var(--orange); font: 500 6rem/1 var(--font-display); }
 .not-found h1 { max-width: 740px; margin: 1rem auto; font: 500 4rem/1 var(--font-display); }
@@ -455,6 +536,11 @@ code, pre, kbd { font-family: var(--font-mono); }
   .format-grid { grid-template-columns: repeat(2, 1fr); }
   .anatomy-grid { gap: 4rem; }
   .prose-layout, .principle-layout { gap: 4rem; }
+  .unreal-route-grid { grid-template-columns: repeat(2, 1fr); }
+  .unreal-route-grid article:nth-child(2) { border-right: 0; }
+  .unreal-route-grid article:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .unreal-skill-grid { grid-template-columns: repeat(2, 1fr); }
+  .unreal-doc-layout, .unreal-reference-layout { gap: 4rem; }
 }
 
 @media (max-width: 760px) {
@@ -496,6 +582,13 @@ code, pre, kbd { font-family: var(--font-mono); }
   .principle-source { grid-template-columns: 1fr; }
   .principle-pagination { grid-template-columns: 1fr; }
   .site-footer__inner { grid-template-columns: 1fr; gap: 2.5rem; }
+  .unreal-stat-rail { grid-template-columns: 1fr 1fr; }
+  .unreal-filters, .unreal-download-grid, .unreal-legal-callout, .unreal-doc-layout, .unreal-reference-layout, .unreal-ai-setup { grid-template-columns: 1fr; gap: 2.5rem; }
+  .unreal-skill-grid { grid-template-columns: 1fr; }
+  .unreal-doc-index, .unreal-reference-layout > aside { position: static; max-height: none; }
+  .unreal-doc-index { padding: 1rem; display: grid; grid-template-columns: repeat(2, 1fr); border: 1px solid var(--line); }
+  .unreal-doc-index > p, .unreal-doc-index .button { grid-column: 1 / -1; }
+  .unreal-download-grid .button-row { grid-column: auto; }
 }
 
 @media (max-width: 480px) {
@@ -510,6 +603,9 @@ code, pre, kbd { font-family: var(--font-mono); }
   .search-field kbd { display: none; }
   .principle-card { min-height: 330px; }
   .not-found h1 { font-size: 3rem; }
+  .unreal-route-grid, .unreal-reference-shelf > div, .unreal-doc-index { grid-template-columns: 1fr; }
+  .unreal-route-grid article { border-right: 0; border-bottom: 1px solid var(--line); }
+  .unreal-doc-index > p, .unreal-doc-index .button { grid-column: auto; }
 }
 
 @media (prefers-reduced-motion: reduce) {

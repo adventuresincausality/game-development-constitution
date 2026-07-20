@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal Insights Profiling"
+  short_description: "Capture and isolate Unreal performance bottlenecks"
+  default_prompt: "Use $unreal-insights-profiling to capture, analyze, and verify this Unreal performance problem."
